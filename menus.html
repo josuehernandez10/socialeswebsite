@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(100, 230, 110);
+        }
+
+        .gallery-container {
+            display: flex;
+            overflow-x: scroll; 
+            white-space: nowrap; 
+            padding: 20px;
+        }
+
+        .gallery-item {
+            flex: 0 0 auto;
+            width: 300px;
+            margin-right: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .homepage {
+                display: block;
+                text-align: left;
+                color: black;
+                margin-left: 10px;
+
+        }
+
+        .logo {
+                position: relative;
+                display: block;
+                height: 15%;
+                width: 15%;
+                padding-bottom: 4px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: -12px;
+            }
+
+        .linea {
+                width: 80%;
+                height: 2px;
+                border: 2px black dashed;
+                background-color: gray;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 20px;
+        }
+
+        .precio {
+                margin-top: 30px;
+                margin-left: 600px;
+                border: 2px blue  double;
+                width: 200px;
+                height: 50px;
+                background-color: aqua;
+                font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2><a class="homepage" href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/Restaurant.html">Inicio</a></h2>
+        <img class="logo" src="logo.png">
+        <div class="linea">
+        </div>
+
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="sopa.jpg" alt="Hamburguesa">
+        </div>
+        <div class="gallery-item">
+            <img src="steak.jpeg" alt="Pizza">
+        </div>
+        <div class="gallery-item">
+            <img src="salad.jpeg" alt="Ensalada">
+        </div>
+        <div class="gallery-item">
+            <img src="fish.webp" alt="Pasta">
+        </div>
+        <div class="gallery-item">
+            <img src="sopadegallina.jpg" alt="Sushi">
+        </div>
+        <div class="gallery-item">
+            <img src="pasta.jpg" alt="Postre">
+        </div>
+        <div class="gallery-item">
+            <img src="camarones.jpeg" alt="Postre">
+        </div>
+    </div>
+    
+        <a href="file:///C:/Users/MINEDUCYT/Desktop/programar/personal_website/menu.html" ><button class="precio">Precios</button> </a>
+
+</body>
+</html>
+
